@@ -110,10 +110,10 @@ protected:
 	uint8 IsDeath : 1;
 
 	UPROPERTY(BlueprintReadWrite, Replicated)
-	uint8 IsToTreat : 1;		// 내가 아군을 회생(치료) 하고 있는 중이다. 
+	uint8 IsToTreat : 1;		// 치료하고 있는 중이다. 
 
 	UPROPERTY(BlueprintReadWrite, Replicated)
-	uint8 IsTreatedBy : 1;		// 자신이 회생(치료) 받고 있는 중이다. 
+	uint8 IsTreatedBy : 1;		// 치료 받고 있는 중이다. 
 
 private:
 
